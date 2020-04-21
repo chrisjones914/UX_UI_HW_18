@@ -1,0 +1,13 @@
+.flex-container {display: flex;}
+div {width: 33%;}
+section {background-color: #FCFCFC;}
+.workgrid {display: grid;}
+.gridContainer {display: grid; grid-template-rows: 100px 300px;}
+.item1 {grid-area: myArea;}
+@media only screen and (max-width600px) {body {background-color: blue;}}
+#categoryGrid {grid-template-rows: 300px;grid-template-columns: 1fr; grid-template-areas: myArea;} 
+
+
+
+
+
